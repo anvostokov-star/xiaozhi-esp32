@@ -69,13 +69,15 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
   build:
-    name: Build ${{ matrix.ci_name || matrix.full_name }}
+    name: Build ${{ matrix.full_name }}
     needs: prepare
-    if: ${{ needs.prepare.outputs.variants != '[]' }}
     strategy:
-      fail-fast: false  # 单个变体失败不影响其它变体
+      fail-fast: false
       matrix:
-        include: ${{ fromJson(needs.prepare.outputs.variants) }}
+        include:
+          - board: esp32s3
+            name: default
+            full_name: esp32s3-default
     runs-on: ubuntu-latest
     container:
       image: espressif/idf:release-v6.1
