@@ -75,7 +75,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - board: quandong-s3-dev-2-8-lcd
+          - board: quandong_s3_dev_2_8_lcd
             name: default
             full_name: quandong-s3-dev-2-8-lcd-default
     runs-on: ubuntu-latest
