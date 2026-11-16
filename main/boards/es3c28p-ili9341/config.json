@@ -1,0 +1,10 @@
+   {
+     "type": "es3c28p-ili9341",
+     "manufacturer": "generic",
+     "display": {
+       "type": "ili9341",
+       "width": 320,
+       "height": 240,
+       "invert_colors": true
+     }
+   }
