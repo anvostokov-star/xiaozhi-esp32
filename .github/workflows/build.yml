@@ -75,9 +75,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - board: esp32-s3-spi-2.8
+          - board: quandong-s3-dev-2-8-lcd
             name: default
-            full_name: quandong-s3-dev-2.8-lcd
+            full_name: quandong-s3-dev-2-8-lcd-default
     runs-on: ubuntu-latest
     container:
       image: espressif/idf:release-v6.1
