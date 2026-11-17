@@ -27,7 +27,7 @@ jobs:
       - name: Build current variant
         shell: bash
         env:
-          BOARD: quandong-s3-dev-2-8-lcd
+          BOARD: lcdwiki-es3c28p
           VARIANT: default
         run: |
           source "$IDF_PATH/export.sh"
