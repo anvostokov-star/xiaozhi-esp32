@@ -1,0 +1,5 @@
+{
+  "target": "esp32s3",
+  "type": "lcdwiki-es3c28p",
+  "manufacturer": "lcdwiki"
+}
