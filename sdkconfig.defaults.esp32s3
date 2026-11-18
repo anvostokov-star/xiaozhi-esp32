@@ -51,3 +51,18 @@ CONFIG_USE_AFE_WAKE_WORD=n
 
 # Включаем поддержку кастомного слова пробуждения
 CONFIG_USE_CUSTOM_WAKE_WORD=y
+
+# Включаем кастомное слово пробуждения
+CONFIG_USE_CUSTOM_WAKE_WORD=y
+
+# Отключаем стандартное слово (AFE)
+CONFIG_USE_AFE_WAKE_WORD=n
+
+# Задаём фразу на пиньине (например, для «Робот»)
+CONFIG_CUSTOM_WAKE_WORD="Robot"
+
+# Задаём отображаемое имя
+CONFIG_CUSTOM_WAKE_WORD_DISPLAY="Робот"
+
+# Чувствительность (чем меньше, тем чувствительнее)
+CONFIG_CUSTOM_WAKE_WORD_THRESHOLD=15
