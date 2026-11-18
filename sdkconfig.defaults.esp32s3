@@ -39,12 +39,3 @@ CONFIG_LV_USE_SNAPSHOT=y
 CONFIG_LV_USE_BUILTIN_MALLOC=y
 # CONFIG_LV_USE_CLIB_MALLOC is not set
 CONFIG_LV_MEM_SIZE_KILOBYTES=1024
-
-# Включаем аудио-процессор (AFE) для шумоподавления и VAD
-CONFIG_USE_AUDIO_PROCESSOR=y
-
-# Включаем эхо-подавление (AEC), чтобы ассистент не слышал сам себя
-CONFIG_USE_DEVICE_AEC=y
-
-# Чувствительность (чем меньше, тем чувствительнее)
-CONFIG_CUSTOM_WAKE_WORD_THRESHOLD=15
