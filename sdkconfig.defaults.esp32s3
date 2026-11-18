@@ -45,3 +45,9 @@ CONFIG_USE_AUDIO_PROCESSOR=y
 
 # Включаем эхо-подавление (AEC), чтобы ассистент не слышал сам себя
 CONFIG_USE_DEVICE_AEC=y
+
+# Отключаем стандартное слово пробуждения (AFE)
+CONFIG_USE_AFE_WAKE_WORD=n
+
+# Включаем поддержку кастомного слова пробуждения
+CONFIG_USE_CUSTOM_WAKE_WORD=y
