@@ -28,7 +28,7 @@ jobs:
         shell: bash
         env:
           BOARD: lcdwiki-es3c28p
-          VARIANT: default
+          VARIANT: lcdwiki-es3c28p
         run: |
           source "$IDF_PATH/export.sh"
           python scripts/build.py "$BOARD" --name "$VARIANT"
