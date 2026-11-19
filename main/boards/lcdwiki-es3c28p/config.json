@@ -4,7 +4,7 @@
   "builds": [
     {
       "name": "lcdwiki-es3c28p",
-                  "wake_word": "wn9_Robo"
+      "wake_word": "wn9_Robo"
       "sdkconfig_append": [
         "CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y",
         "CONFIG_PARTITION_TABLE_CUSTOM_FILENAME=\"partitions/v2/16m.csv\"",
