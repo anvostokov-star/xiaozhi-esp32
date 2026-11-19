@@ -10,7 +10,6 @@ dependencies:
   espressif/esp_lcd_gc9a01: ~2.0.4
   espressif/esp_lcd_st77916: ^2.0.2
   espressif/esp_lcd_axs15231b: ^2.1.0
-  txp666/otto-emoji-gif-component: ^1.0.5
   
   espressif/esp_lcd_st7701:
     version: ^2.0.2~2
@@ -55,7 +54,7 @@ dependencies:
   espressif/esp_video:
     version: ^2.4.1
     rules:
-    - if: target in [esp32c5, esp32p4, esp32s3, esp32s31]
+    - if: target in [esp32s3, esp32p4, esp32s31]
     matches:
     - if: target in [esp32p4, esp32s3, esp32s31]
     - if: target == esp32c5 && $CONFIG{BOARD_TYPE_WAVESHARE_ESP32_C5_TOUCH_LCD_3_5} == True
